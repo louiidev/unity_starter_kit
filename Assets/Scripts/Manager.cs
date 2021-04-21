@@ -21,17 +21,13 @@ public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 }
 
 
+public struct SaveData
+{
+
+}
+
+
 public class Manager : Singleton<Manager>
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+ 
 }
